@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS</title>
+    <script type="text/javascript" src="snap.svg.js"></script>
+</head>
+<body>
+    <style type="text/css">
+        .nombre{
+            
+
+            font-size: 60px;
+            font-family: sans-serif;
+            font-size: 330%;
+            font-weight: bold;
+            font-weight: 850;
+            texto-vertical-1;  writing-mode: vertical-lr;
+            fill: white;
+
+            
+            
+        }
+
+    </style>
+    <svg id="svg" width="400" height="400"></svg>
+
+
+<script type="text/javascript">
+
+
+var s = Snap("#svg");
+
+
+ 
+
+
+//cuadrado principal
+var c = s.rect(110,110,200,200);
+c.attr({
+    fill: "#E9EB48",
+   stroke: "#565644",
+    strokeWidth: 2.5
+
+
+    });
+
+var bigCircle = s.circle(180, 180, 30);
+bigCircle.attr({
+    fill: "#E6E313",
+    stroke: "#D2CF1F",
+    strokeWidth: 1
+    });
+
+
+
+
+
+//planta baja sombra
+
+var cp = s.rect(133,281,161,31);
+cp.attr({
+    fill: "#525249",
+    stroke: "#525249",
+    strokeWidth: 1
+    });
+
+
+//planta baja
+
+var cp = s.rect(130,280,160,30);
+cp.attr({
+    fill: "#6D6D4C",
+    stroke: "#44442B",
+    strokeWidth: 2
+    });
+
+
+//piso escaleras planta baja
+
+var cp = s.rect(195,280,30,30);
+cp.attr({
+    fill: "#565644",
+    stroke: "#353533",
+    strokeWidth: 2
+    });
+
+
+//piso escaleras enmedio planta baja
+
+var cp = s.rect(195,265,30,30);
+cp.attr({
+    fill: "#565644",
+    stroke: "#353533",
+    strokeWidth: 2
+    });
+
+
+
+//piso 1 sombra
+
+var cp = s.rect(152,252,122,32);
+cp.attr({
+    fill: "#525249",
+    stroke: "#525249",
+    strokeWidth: 2
+    });
+
+
+
+//piso 1
+
+var cp = s.rect(150,250,120,30);
+cp.attr({
+    fill: "#6D6D4C",
+    stroke: "#353533",
+    strokeWidth: 2
+    });
+
+//piso escaleras piso 1
+
+var cp = s.rect(197,250,28,30);
+cp.attr({
+    fill: "#565644",
+    stroke: "#353533",
+    strokeWidth: 2
+    });
+
+
+//piso escaleras enmedio piso 1
+
+var cp = s.rect(197,225,28,40);
+cp.attr({
+    fill: "#565644",
+    stroke: "#353533",
+    strokeWidth: 2
+    });
+
+
+
+//piso 2 sombra
+
+var cp = s.rect(167,222,92,32);
+cp.attr({
+    fill: "#525249",
+    stroke: "#525249",
+    strokeWidth: 2
+    });
+
+
+//piso 2
+
+var cp = s.rect(165,220,90,30);
+cp.attr({
+    fill: "#6D6D4C",
+    stroke: "#353533",
+    strokeWidth: 2
+    });
+
+
+//piso escaleras piso 2
+
+var cp = s.rect(198,220,25,30);
+cp.attr({
+    fill: "#565644",
+    stroke: "#353533",
+    strokeWidth: 2
+    });
+
+
+//piso escaleras enmedio piso 2
+
+var cp = s.rect(198,205,25,30);
+cp.attr({
+    fill: "#565644",
+    stroke: "#353533",
+    strokeWidth: 2
+    });
+
+
+//piso 3 sombra
+
+var cp = s.rect(182,192,62,32);
+cp.attr({
+    fill: "#525249",
+    stroke: "#525249",
+    strokeWidth: 2
+    });
+
+
+
+//piso 3
+
+var cp = s.rect(180,190,60,30);
+cp.attr({
+    fill: "#6D6D4C",
+    stroke: "#353533",
+    strokeWidth: 2
+    });
+
+
+//piso escaleras piso 3
+
+var cp = s.rect(200,190,20,30);
+cp.attr({
+    fill: "#565644",
+    stroke: "#353533",
+    strokeWidth: 2
+    });
+
+
+//piso escaleras enmedio piso 3
+
+var cp = s.rect(200,190,20,15);
+cp.attr({
+    fill: "#565644",
+    stroke: "#353533",
+    strokeWidth: 2
+    });
+
+
+
+
+//piso 4 sombra
+
+var cp = s.rect(196,166,31,26);
+cp.attr({
+    fill: "#525249",
+    stroke: "#525249",
+    strokeWidth: 2
+    });
+
+
+//piso 4
+
+var cp = s.rect(195,165,30,25);
+cp.attr({
+    fill: "#6D6D4C",
+    stroke: "#353533",
+    strokeWidth: 2
+    });
+
+
+//piso escaleras piso 4
+
+var cp = s.rect(205,165,10,25);
+cp.attr({
+    fill: "#565644",
+    stroke: "#353533",
+    strokeWidth: 2
+    });
+
+
+//piso escaleras enmedio piso 4
+
+var cp = s.rect(205,165,10,15);
+cp.attr({
+    fill: "#565644",
+    stroke: "#353533",
+    strokeWidth: 2
+    });
+
+//piso 5 sombra
+
+var cp = s.rect(206,151,11,16);
+cp.attr({
+    fill: "#525249",
+    stroke: "#525249",
+    strokeWidth: 2
+    });
+
+
+//piso 5
+
+var cp = s.rect(205,150,10,15);
+cp.attr({
+    fill: "#6D6D4C",
+    stroke: "#353533",
+    strokeWidth: 2
+    });
+
+
+//texto
+var nombre = s.text(290,120,"JS")
+nombre.addClass("nombre")
+
+
+//texto
+var nombre = s.text(291,121,"JS")
+nombre.addClass("nombre")
+
+</script>
+</body>
+</html>
